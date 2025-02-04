@@ -1,6 +1,6 @@
 {
   "AEM Dialog - Template (Tab)": {
-    "prefix": "ad",
+    "prefix": ["ad", "aem.dialog.template"],
     "body": [
       "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
       "<jcr:root xmlns:jcr=\"http://www.jcp.org/jcr/1.0\" xmlns:nt=\"http://www.jcp.org/jcr/nt/1.0\" xmlns:cq=\"http://www.day.com/jcr/cq/1.0\" xmlns:sling=\"http://sling.apache.org/jcr/sling/1.0\"",
@@ -46,8 +46,8 @@
     ],
     "description": "Add AEM Touch UI Dialog Template (Tab)"
   },
-  "AEM TextField": {
-    "prefix": "adtf",
+  "AEM Dialog - TextField": {
+    "prefix": ["adtf", "aem.dialog.textfield"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -61,7 +61,7 @@
     "description": "AEM Touch UI TextField"
   },
   "AEM Textarea": {
-    "prefix": "adta",
+    "prefix": ["adta", "aem.dialog.textarea"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -75,7 +75,7 @@
     "description": "AEM Touch UI TextArea"
   },
   "AEM NumberField": {
-    "prefix": "adnf",
+    "prefix": ["adnf", "aem.dialog.numberfield"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -88,8 +88,8 @@
     ],
     "description": "AEM Touch UI NumberField"
   },
-  "AEM Checkbox": {
-    "prefix": "adcb",
+  "AEM Dialog - Checkbox": {
+    "prefix": ["adcb", "aem.dialog.checkbox"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -102,8 +102,8 @@
     ],
     "description": "AEM Touch UI Checkbox"
   },
-  "AEM Select": {
-    "prefix": "addd",
+  "AEM Dialog - Dropdown (Select)": {
+    "prefix": ["addd", "aem.dialog.dropdown"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -125,8 +125,8 @@
     ],
     "description": "AEM Touch UI Select Field"
   },
-  "AEM PathField": {
-    "prefix": "adptf",
+  "AEM Dialog - PathField": {
+    "prefix": ["adptf", "aem.dialog.pathfield"],
     "body": [
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -139,8 +139,8 @@
     ],
     "description": "AEM Touch UI PathField"
   },
-  "AEM PageField": {
-    "prefix": "adpgf",
+  "AEM Dialog - PageField": {
+    "prefix": ["adpgf", "aem.dialog.pagefield"],
     "body": [
       "<${1:pageField}",
       "\tjcr:primaryType=\"nt:unstructured\"",
@@ -153,8 +153,8 @@
     ],
     "description": "AEM Touch UI PageField (PathField with page selection)"
   },
-  "AEM Multifield": {
-    "prefix": "admf",
+  "AEM Dialog - Multifield": {
+    "prefix": ["admf", "aem.dialog.multifield"],
     "body": [
       "<${1:multiField}",
       "\tjcr:primaryType=\"nt:unstructured\"",
