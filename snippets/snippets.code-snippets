@@ -60,7 +60,7 @@
     ],
     "description": "AEM Touch UI TextField"
   },
-  "AEM Textarea": {
+  "AEM Dialog - Textarea": {
     "prefix": ["adta", "aem.dialog.textarea"],
     "body": [
       "<${1:nodeName}",
@@ -74,7 +74,7 @@
     ],
     "description": "AEM Touch UI TextArea"
   },
-  "AEM NumberField": {
+  "AEM Dialog - NumberField": {
     "prefix": ["adnf", "aem.dialog.numberfield"],
     "body": [
       "<${1:nodeName}",
