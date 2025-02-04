@@ -27,6 +27,10 @@ Currently, no specific requirements or dependencies are needed.
 
 ## Release Notes
 
+### 0.0.2
+
+Lower VSCode version requirements.
+
 ### 0.0.1
 
 Initial release, supports only a few Touch UI Dialog snippets.
