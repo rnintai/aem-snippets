@@ -3,6 +3,7 @@
   "displayName": "AEM Snippets (Touch UI Dialog)",
   "description": "AEM Code Snippets for development (Supports ONLY AEM Dialog Touch UI at the moment)",
   "version": "0.0.1",
+  "icon": "asset/icon.webp",
   "engines": {
     "vscode": "^1.96.0"
   },
