@@ -10,7 +10,7 @@
     "url": "https://github.com/rnintai/aem-snippets.git"
   },
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Snippets"
