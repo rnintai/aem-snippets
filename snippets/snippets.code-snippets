@@ -1,0 +1,174 @@
+{
+  "AEM Dialog - Template (Tab)": {
+    "prefix": "ad",
+    "body": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "<jcr:root xmlns:jcr=\"http://www.jcp.org/jcr/1.0\" xmlns:nt=\"http://www.jcp.org/jcr/nt/1.0\" xmlns:cq=\"http://www.day.com/jcr/cq/1.0\" xmlns:sling=\"http://sling.apache.org/jcr/sling/1.0\"",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tjcr:title=\"${1:Component Name}\"",
+      "\tsling:resourceType=\"cq/gui/components/authoring/dialog\">",
+      "\t<content",
+      "\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\tsling:resourceType=\"granite/ui/components/coral/foundation/container\">",
+      "\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t<tabs",
+      "\t\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\t\tsling:resourceType=\"granite/ui/components/coral/foundation/tabs\"",
+      "\t\t\t\tmaximized=\"{Boolean}false\">",
+      "\t\t\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t\t\t<${2:tabName}",
+      "\t\t\t\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\t\t\t\tjcr:title=\"${3:Tab Display Name}\"",
+      "\t\t\t\t\t\tsling:resourceType=\"granite/ui/components/coral/foundation/container\"",
+      "\t\t\t\t\t\tmargin=\"{Boolean}true\">",
+      "\t\t\t\t\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t\t\t\t\t<columns",
+      "\t\t\t\t\t\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\t\t\t\t\t\tsling:resourceType=\"granite/ui/components/coral/foundation/fixedcolumns\"",
+      "\t\t\t\t\t\t\t\tmargin=\"{Boolean}true\">",
+      "\t\t\t\t\t\t\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t\t\t\t\t\t\t<column",
+      "\t\t\t\t\t\t\t\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\t\t\t\t\t\t\t\tsling:resourceType=\"granite/ui/components/coral/foundation/container\">",
+      "\t\t\t\t\t\t\t\t\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t\t\t\t\t\t\t\t\t$0",
+      "\t\t\t\t\t\t\t\t\t\t</items>",
+      "\t\t\t\t\t\t\t\t\t</column>",
+      "\t\t\t\t\t\t\t\t</items>",
+      "\t\t\t\t\t\t\t</columns>",
+      "\t\t\t\t\t\t</items>",
+      "\t\t\t\t\t</${2:tabName}>",
+      "\t\t\t\t</items>",
+      "\t\t\t</tabs>",
+      "\t\t</items>",
+      "\t</content>",
+      "</jcr:root>"
+    ],
+    "description": "Add AEM Touch UI Dialog Template (Tab)"
+  },
+  "AEM TextField": {
+    "prefix": "adtf",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/textfield\"",
+      "\tfieldLabel=\"${2:Field Label}\"",
+      "\temptyText=\"${3:Placeholder}\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\trequired=\"{Boolean}${4:true}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI TextField"
+  },
+  "AEM Textarea": {
+    "prefix": "adta",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/textarea\"",
+      "\tfieldLabel=\"${2:Field Label}\"",
+      "\temptyText=\"${3:Placeholder}\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\trequired=\"{Boolean}${4:true}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI TextArea"
+  },
+  "AEM NumberField": {
+    "prefix": "adnf",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/numberfield\"",
+      "\tfieldLabel=\"${2:Field Label}\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\tvalue=\"${3:0}\"",
+      "\trequired=\"{Boolean}${4:false}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI NumberField"
+  },
+  "AEM Checkbox": {
+    "prefix": "adcb",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/checkbox\"",
+      "\tfieldLabel=\"${2:Enable Option}\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\tchecked=\"{Boolean}${3:false}\"",
+      "\trequired=\"{Boolean}${4:true}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI Checkbox"
+  },
+  "AEM Select": {
+    "prefix": "addd",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/select\"",
+      "\tfieldLabel=\"${2:Select Option}\"",
+      "\trequired=\"{Boolean}${7:true}\"",
+      "\tname=\"./${1:nodeName}\">",
+      "\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t<option1",
+      "\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\ttext=\"${3:Option 1}\"",
+      "\t\t\tvalue=\"${4:value1}\"/>",
+      "\t\t<option2",
+      "\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\ttext=\"${5:Option 2}\"",
+      "\t\t\tvalue=\"${6:value2}\"/>",
+      "\t</items>",
+      "</${1:nodeName}>"
+    ],
+    "description": "AEM Touch UI Select Field"
+  },
+  "AEM PathField": {
+    "prefix": "adptf",
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/pathfield\"",
+      "\tfieldLabel=\"${2:Path Field}\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\trootPath=\"${3:/content}\"",
+      "\trequired=\"{Boolean}${4:true}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI PathField"
+  },
+  "AEM PageField": {
+    "prefix": "adpgf",
+    "body": [
+      "<${1:pageField}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/pagefield\"",
+      "\tfieldLabel=\"${2:Page Field}\"",
+      "\tname=\"./${1:pageField}\"",
+      "\trootPath=\"/content\"",
+      "\trequired=\"{Boolean}${3:true}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI PageField (PathField with page selection)"
+  },
+  "AEM Multifield": {
+    "prefix": "admf",
+    "body": [
+      "<${1:multiField}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/multifield\"",
+      "\tfieldLabel=\"${2:Multifield Label}\">",
+      "\t<field",
+      "\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\tsling:resourceType=\"granite/ui/components/coral/foundation/form/textfield\"",
+      "\t\tfieldLabel=\"${3:Field Label}\"",
+      "\t\temptyText=\"${4:Placeholder}\"",
+      "\t\tname=\"./item\"",
+      "\t/>",
+      "</${1:multiField}>"
+    ],
+    "description": "AEM Touch UI Multifield"
+  }
+}
