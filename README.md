@@ -23,7 +23,7 @@ Currently, no specific requirements or dependencies are needed.
 ## Installation
 
 1. Open VSCode and go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
-2. Search for `AEM Snippets` and click the **Install** button.
+2. Search for `AEM Snippets` or `mintai.aem-snippets` and click the **Install** button.
 
 ## Release Notes
 
