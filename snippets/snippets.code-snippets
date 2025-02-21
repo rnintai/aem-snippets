@@ -94,7 +94,7 @@
       "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/checkbox\"",
-      "\tfieldLabel=\"${2:Enable Option}\"",
+      "\ttext=\"${2:Enable Option}\"",
       "\tname=\"./${1:nodeName}\"",
       "\tchecked=\"{Boolean}${3:false}\"",
       "\trequired=\"{Boolean}${4:true}\"",
