@@ -96,6 +96,7 @@
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/checkbox\"",
       "\ttext=\"${2:Enable Option}\"",
       "\tname=\"./${1:nodeName}\"",
+      "\tvalue=\"{Boolean}true\"",
       "\tchecked=\"{Boolean}${3:false}\"",
       "\trequired=\"{Boolean}${4:true}\"",
       "/>"
@@ -144,7 +145,7 @@
     "body": [
       "<${1:pageField}",
       "\tjcr:primaryType=\"nt:unstructured\"",
-      "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/pagefield\"",
+      "\tsling:resourceType=\"cq/gui/components/coral/common/form/pagefield\"",
       "\tfieldLabel=\"${2:Page Field}\"",
       "\tname=\"./${1:pageField}\"",
       "\trootPath=\"/content\"",
