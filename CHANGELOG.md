@@ -4,7 +4,10 @@ All notable changes to the "aem-snippets" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-- 0.0.6: add `adimg(aem.dialog.image)`
+- 0.0.6:
+
+  1. Add `adimg(aem.dialog.image)`
+  1. Add `adddo(aem.dialog.dropdown.option)`
 
 - 0.0.5: Enhance a structure of `admf(aem.dialog.multifield)`
 

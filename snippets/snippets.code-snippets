@@ -126,6 +126,17 @@
     ],
     "description": "AEM Touch UI Select Field"
   },
+  "AEM Dialog - Dropdown Option": {
+    "prefix": ["adddo", "aem.dialog.dropdown.option"],
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\ttext=\"${2:Label}\"",
+      "\tvalue=\"${1:Value}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI Option of Select Field"
+  },
   "AEM Dialog - PathField": {
     "prefix": ["adptf", "aem.dialog.pathfield"],
     "body": [
@@ -195,6 +206,6 @@
       "\tname=\"./${1:nodeName}\"",
       "/>"
     ],
-    "description": "AEM Touch UI Multifield with Nested Container and Well"
+    "description": "AEM Touch UI Image Field"
   }
 }
