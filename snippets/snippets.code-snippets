@@ -160,16 +160,24 @@
       "<${1:multiField}",
       "\tjcr:primaryType=\"nt:unstructured\"",
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/form/multifield\"",
+      "\tcomposite=\"{Boolean}true\"",
       "\tfieldLabel=\"${2:Multifield Label}\">",
       "\t<field",
       "\t\tjcr:primaryType=\"nt:unstructured\"",
-      "\t\tsling:resourceType=\"granite/ui/components/coral/foundation/form/textfield\"",
-      "\t\tfieldLabel=\"${3:Field Label}\"",
-      "\t\temptyText=\"${4:Placeholder}\"",
-      "\t\tname=\"./item\"",
-      "\t/>",
+      "\t\tsling:resourceType=\"granite/ui/components/coral/foundation/container\"",
+      "\t\tname=\"./${1:multiField}\">",
+      "\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t<container",
+      "\t\t\tjcr:primaryType=\"nt:unstructured\"",
+      "\t\t\tsling:resourceType=\"granite/ui/components/coral/foundation/well\">",
+      "\t\t\t\t<items jcr:primaryType=\"nt:unstructured\">",
+      "\t\t\t\t\t$0",
+      "\t\t\t\t</items>",
+      "\t\t\t</container>",
+      "\t\t</items>",
+      "\t</field>",
       "</${1:multiField}>"
     ],
-    "description": "AEM Touch UI Multifield"
+    "description": "AEM Touch UI Multifield with Nested Container and Well"
   }
 }
