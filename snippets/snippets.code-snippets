@@ -179,5 +179,22 @@
       "</${1:multiField}>"
     ],
     "description": "AEM Touch UI Multifield with Nested Container and Well"
+  },
+  "AEM Dialog - Image": {
+    "prefix": ["adimg", "aem.dialog.image"],
+    "body": [
+      "<${1:nodeName}",
+      "\tgranite:class=\"cmp-image__editor-file-upload\"",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"cq/gui/components/authoring/dialog/fileupload\"",
+      "\tclass=\"cq-droptarget\"",
+      "\tenableNextGenDynamicMedia=\"{Boolean}true\"",
+      "\tfileNameParameter=\"./${1:nodeName}Name\"",
+      "\tfileReferenceParameter=\"./${1:nodeName}Reference\"",
+      "\tmimeTypes=\"[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]\"",
+      "\tname=\"./${1:nodeName}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI Multifield with Nested Container and Well"
   }
 }
