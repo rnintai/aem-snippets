@@ -4,6 +4,11 @@ All notable changes to the "aem-snippets" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+- 0.0.7:
+
+  1. Fix `addd(aem.dialog.dropdown)`
+      - Make tab focuses to `nodeName` and `value` of option
+
 - 0.0.6:
 
   1. Add `adimg(aem.dialog.image)`
