@@ -240,7 +240,7 @@
       "\tjcr:primaryType=\"nt:unstructured\"",
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/heading\"",
       "\tlevel=\"{Long}${1:(1~6)}\"",
-      "\ttext=\"Options for Child Pages\" />"
+      "\ttext=\"${2:(title)}\" />"
     ],
     "description": "AEM Touch UI - Heading"
   }
