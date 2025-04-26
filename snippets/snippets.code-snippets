@@ -224,25 +224,25 @@
   "AEM Dialog - Container (Well)": {
     "prefix": ["adcw", "aem.dialog.container.well"],
     "body": [
-      "<container",
+      "<${1:nodeName}",
       "\tjcr:primaryType=\"nt:unstructured\"",
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/well\">",
       "\t\t<items jcr:primaryType=\"nt:unstructured\">",
       "\t\t\t$0",
       "\t\t</items>",
-      "</container>"
+      "</$>"
     ],
     "description": "AEM Touch UI - Well Container"
   },
   "AEM Dialog - Heading": {
     "prefix": ["adh", "aem.dialog.common.heading"],
     "body": [
-      "<heading",
+      "<${1:nodeName}",
       "\tgranite:class=\"coral-Heading coral-Heading--${1:(1~6)}\"",
       "\tjcr:primaryType=\"nt:unstructured\"",
       "\tsling:resourceType=\"granite/ui/components/coral/foundation/heading\"",
-      "\tlevel=\"{Long}${1:(1~6)}\"",
-      "\ttext=\"${2:(title)}\" />"
+      "\tlevel=\"{Long}${2:(1~6)}\"",
+      "\ttext=\"${3:(title)}\" />"
     ],
     "description": "AEM Touch UI - Heading"
   }
