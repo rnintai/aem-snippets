@@ -2,7 +2,7 @@
   "name": "aem-snippets",
   "displayName": "AEM Snippets (Touch UI Dialog)",
   "description": "AEM Code Snippets for development (Supports ONLY AEM Dialog Touch UI at the moment)",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "icon": "assets/icon.webp",
   "publisher": "mintai",
   "repository": {

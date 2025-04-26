@@ -209,7 +209,7 @@
     "description": "AEM Touch UI Image Field"
   },
   "AEM Dialog - Style Tab": {
-    "prefix": ["adstt", "aem.dialog.styletab"],
+    "prefix": ["adst", "aem.dialog.tab.styletab"],
     "body": [
       "<styletab",
       "\tjcr:primaryType=\"nt:unstructured\"",
