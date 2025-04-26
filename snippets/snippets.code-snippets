@@ -230,6 +230,18 @@
       "\t\t</items>",
       "</container>"
     ],
-    "description": "AEM Touch UI - Style Tab"
+    "description": "AEM Touch UI - Well Container"
+  },
+  "AEM Dialog - Heading": {
+    "prefix": ["adh", "aem.dialog.common.heading"],
+    "body": [
+      "<heading",
+      "\tgranite:class=\"coral-Heading coral-Heading--${1:(1~6)}\"",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/heading\"",
+      "\tlevel=\"{Long}${1:(1~6)}\"",
+      "\ttext=\"Options for Child Pages\" />"
+    ],
+    "description": "AEM Touch UI - Heading"
   }
 }
