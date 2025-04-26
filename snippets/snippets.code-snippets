@@ -207,5 +207,16 @@
       "/>"
     ],
     "description": "AEM Touch UI Image Field"
+  },
+  "AEM Dialog - Style Tab": {
+    "prefix": ["adstt", "aem.dialog.styletab"],
+    "body": [
+      "<styletab",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/include\"",
+      "\tpath=\"/mnt/overlay/cq/gui/components/authoring/dialog/style/tab_edit/styletab\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI - Style Tab"
   }
 }
