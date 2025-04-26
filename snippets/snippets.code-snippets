@@ -200,6 +200,7 @@
       "\tsling:resourceType=\"cq/gui/components/authoring/dialog/fileupload\"",
       "\tclass=\"cq-droptarget\"",
       "\tenableNextGenDynamicMedia=\"{Boolean}true\"",
+      "\tfieldLabel=\"${2:(Label)}\"",
       "\tfileNameParameter=\"./${1:nodeName}Name\"",
       "\tfileReferenceParameter=\"./${1:nodeName}Reference\"",
       "\tmimeTypes=\"[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]\"",
