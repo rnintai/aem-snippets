@@ -4,6 +4,11 @@ All notable changes to the "aem-snippets" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+- 0.0.9:
+
+  1. Add `adh(aem.dialog.common.heading)` support
+  2. Add `fieldLabel` and `required` properties to `adimg(aem.dialog.image)`
+
 - 0.0.8:
 
   1. Add `granite:` support to basic template (`ad`)
