@@ -205,6 +205,7 @@
       "\tfileReferenceParameter=\"./${1:nodeName}Reference\"",
       "\tmimeTypes=\"[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]\"",
       "\tname=\"./${1:nodeName}\"",
+      "\trequired=\"{Boolean}${3:true}\"",
       "/>"
     ],
     "description": "AEM Touch UI Image Field"
