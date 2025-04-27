@@ -245,5 +245,16 @@
       "\ttext=\"${3:(title)}\" />"
     ],
     "description": "AEM Touch UI - Heading"
+  },
+  "AEM Dialog - Description": {
+    "prefix": ["adcd", "aem.dialog.common.description"],
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"granite/ui/components/coral/foundation/text\"",
+      "\ttext=\"${2:(Description)}\"",
+      "/>"
+    ],
+    "description": "AEM Touch UI - Description"
   }
 }

@@ -6,8 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - 0.0.9:
 
-  1. Add `adh(aem.dialog.common.heading)` support
-  2. Add `fieldLabel` and `required` properties to `adimg(aem.dialog.image)`
+  1. Add `adh(aem.dialog.common.heading)` and `adcd(aem.dialog.common.description)` support
+  1. Add `fieldLabel` and `required` properties to `adimg(aem.dialog.image)`
 
 - 0.0.8:
 
