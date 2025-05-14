@@ -230,6 +230,21 @@
       "\t\t</items>",
       "</container>"
     ],
-    "description": "AEM Touch UI - Style Tab"
+    "description": "AEM Dialog - Container (Well)"
+  },
+
+  "AEM Dialog - Tags": {
+    "prefix": ["adtag", "aem.dialog.tag"],
+    "body": [
+      "<${1:nodeName}",
+      "\tjcr:primaryType=\"nt:unstructured\"",
+      "\tsling:resourceType=\"/libs/cq/gui/components/coral/common/form/tagfield\"",
+      "\tfieldLabel=\"$3\"",
+      "\tfieldDescription=\"$4\"",
+      "\tname=\"./${1:nodeName}\"",
+      "\trootPath=\"/content/cq:tags/${2:...}\"",
+      "/>"
+    ],
+    "description": "AEM Dialog - Tags"
   }
 }
