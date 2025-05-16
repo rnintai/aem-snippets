@@ -230,7 +230,7 @@
       "\t\t<items jcr:primaryType=\"nt:unstructured\">",
       "\t\t\t$0",
       "\t\t</items>",
-      "</$>"
+      "</${1:nodeName}>"
     ],
     "description": "AEM Touch UI - Well Container"
   },
