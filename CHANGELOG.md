@@ -4,7 +4,10 @@ All notable changes to the "aem-snippets" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-- 0.1.0: Add Tag Field Support
+- 0.0.9:
+
+  1. Add `adh(aem.dialog.common.heading)` and `adcd(aem.dialog.common.description)` support
+  1. Add `fieldLabel` and `required` properties to `adimg(aem.dialog.image)`
 
 - 0.0.8:
 

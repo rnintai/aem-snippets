@@ -200,10 +200,12 @@
       "\tsling:resourceType=\"cq/gui/components/authoring/dialog/fileupload\"",
       "\tclass=\"cq-droptarget\"",
       "\tenableNextGenDynamicMedia=\"{Boolean}true\"",
+      "\tfieldLabel=\"${2:(Label)}\"",
       "\tfileNameParameter=\"./${1:nodeName}Name\"",
       "\tfileReferenceParameter=\"./${1:nodeName}Reference\"",
       "\tmimeTypes=\"[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]\"",
       "\tname=\"./${1:nodeName}\"",
+      "\trequired=\"{Boolean}${3:true}\"",
       "/>"
     ],
     "description": "AEM Touch UI Image Field"
@@ -230,21 +232,6 @@
       "\t\t</items>",
       "</${1:nodeName}>"
     ],
-    "description": "AEM Dialog - Container (Well)"
-  },
-
-  "AEM Dialog - Tags": {
-    "prefix": ["adtag", "aem.dialog.tag"],
-    "body": [
-      "<${1:nodeName}",
-      "\tjcr:primaryType=\"nt:unstructured\"",
-      "\tsling:resourceType=\"cq/gui/components/coral/common/form/tagfield\"",
-      "\tfieldLabel=\"$3\"",
-      "\tfieldDescription=\"$4\"",
-      "\tname=\"./${1:nodeName}\"",
-      "\trootPath=\"/content/cq:tags/${2:...}\"",
-      "/>"
-    ],
-    "description": "AEM Dialog - Tags"
+    "description": "AEM Touch UI - Style Tab"
   }
 }
