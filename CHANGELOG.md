@@ -4,6 +4,10 @@ All notable changes to the "aem-snippets" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+- 0.1.0: Minor bugs
+
+  1. `adcw` closing tag
+
 - 0.0.9:
 
   1. Add `adh(aem.dialog.common.heading)` and `adcd(aem.dialog.common.description)` support
